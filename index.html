@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="utf8" />
+	<title>Phạm Quang Huy</title>
+	<style>
+		html {
+			font-family: 'Segoe UI Light', Arial, sans-serif;
+		}
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		@keyframes borderWidth {
+			0% {border-width: 1px;}
+			50% {border-width: 8px;}
+			100% {border-width: 1px;}
+		}
+
+		@keyframes dimension {
+			0% {width: 315px; height: 315px;}
+			50% {width: 330px; height: 330px;}
+			100% {width: 315px; height: 315px;}
+		}
+
+		.container {
+			display: flex;
+			height: 100vh;
+			flex-flow: column wrap;
+			justify-content: center;
+			align-items: center;
+		}
+		#greeting h1 {
+			font-weight: 100;
+			font-size: 18px;
+			color: #111111;
+		}
+		#huy {
+			position: relative;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 350px;
+			height: 350px;
+		}
+
+		#huy .root {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			margin: auto;
+			width: 315px;
+			height: 315px;
+			border-radius: 50%;
+			border-width: 1px;
+			border-color: #cccccc;
+			border-style: solid;
+			animation-name: dimension;
+			animation-timing-function: ease-in-out;
+
+			animation-duration: 1.7s;
+			animation-iteration-count: infinite;
+		}
+
+		#huy .wrapper {
+			display: block;
+			width: 292px;
+			height: 292px;
+			background-color: darkgrey;
+			background-image: url('img/huy.jpg');
+			background-size: 315px 315px;
+			background-position: center center;
+			border-radius: 50%;
+			border-width: 2px;
+			border-color: #333333;
+			border-style: solid;
+			animation-name: borderWidth;
+			animation-timing-function: ease-in-out;
+			animation-duration: 1.5s;
+			animation-iteration-count: infinite;
+			cursor: pointer;
+			z-index: 1;
+			transition: width 0.1s, height 0.1s, opacity .1s;
+			transition-timing-function: linear;
+		}
+		#huy .wrapper:hover {
+			background-image: url('img/huy-1.jpg');
+			opacity: .8;
+		}
+		#huy .wrapper:active {
+			width: 315px;
+			height: 315px;
+			opacity: 1;
+		}
+	</style>
+	</head>
+	<body>
+		<div class="container">
+			<div id="greeting">
+
+			</div>
+			<div id="huy">
+				<div class="root"></div>
+				<div class="wrapper"></div>
+			</div>
+		</div>
+	</body>
+</html>
