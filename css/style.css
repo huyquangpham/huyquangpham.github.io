@@ -1,5 +1,6 @@
 .container .page-section {
-
+    width: 92%;
+    min-height: 320px;
 }
 
 .container .page-section.page-section-ahead {
@@ -7,7 +8,8 @@
 }
 
 .container .page-section.page-section-ahead .root {
-
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
 }
 
 .container .page-section.page-section-ahead .root .wrapper {
@@ -20,7 +22,7 @@
     justify-content: center;
     -webkit-align-items: center;
     align-items: center;
-    width: 784px;
+    width: 100%;
     height: 520px;
     background-image: url('../img/huy-ahead.jpg');
     background-size: 100%;
@@ -112,7 +114,6 @@
 
 .container .page-section.page-section-ahead .leave .btn {
     font-size: 18px;
-    height: 40px;
 }
 
 .container .page-section.page-section-ahead .leave .wrapper {
