@@ -143,9 +143,17 @@
 
 .container-abcxyz .page-section .root {
     margin-bottom: 30px;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: column nowrap;
+    flex-flow: column nowrap;
 }
 
 .container-abcxyz .page-section .root .wrapper {
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
     display: -webkit-flex;
     display: flex;
     -webkit-flex-flow: row;
@@ -159,8 +167,8 @@
 .container-abcxyz .page-section .root .wrapper > .group {
     -webkit-display: flex;
     display: flex;
-    -webkit-flex-flow: column;
-    flex-flow: column;
+    -webkit-flex-flow: column nowrap;
+    flex-flow: column nowrap;
     -webkit-justify-content: space-between;
     justify-content: space-between;
     -webkit-align-items: stretch;
@@ -168,18 +176,34 @@
 }
 
 .container-abcxyz .page-section .root .wrapper .group.group-left {
+    -webkit-flex-shrink: 3.5;
+    flex-shrink: 3.5;
+    -webkit-flex-grow: 4;
+    flex-grow: 4;
+}
+
+.container-abcxyz .page-section .root .wrapper .group.group-right {
+    -webkit-flex-shrink: 1;
+    flex-shrink: 1;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+}
+.container-abcxyz .page-section .root .wrapper .group > * {
     display: -webkit-flex;
     display: flex;
     -webkit-flex-flow: row;
     flex-flow: row;
-    -webkit-align-items: center;
-    align-items: center;
+    -webkit-align-items: stretch;
+    align-items: stretch;
     -webkit-justify-content: space-between;
     justify-content: space-between;
 }
 
 .container-abcxyz .page-section .root .wrapper .group.group-left > * {
-    margin-right: 10px;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
 }
 
 .container-abcxyz .page-section .root .wrapper .group.group-left > *:last-child {
@@ -187,12 +211,22 @@
 }
 
 .container-abcxyz .page-section .root .huy {
+    -webkit-flex-grow: 1;
+    -webkit-flex-grow: 1;
     border: solid 8px #111111;
     border-bottom-width: 24px;
     background-size: 100%;
+    background-position: center;
+    background-color: #111111;
+    background-repeat: no-repeat;
     -webkit-transition: border-color .1s ease-in-out;
     transition: border-color .1s ease-in-out;
     cursor: pointer;
+    margin: 0 0 10px 10px;
+}
+
+.container-abcxyz .page-section .root .huy.v {
+    background-size: auto 100%;
 }
 
 .container-abcxyz .page-section .root .huy:hover {
@@ -200,51 +234,55 @@
 }
 
 .container-abcxyz .page-section .root .huy-1 {
-    width: 332px;
-    height: 220px;
-    background-color: darkred;
+    /*width: 332px;
+    height: 220px;*/
+    /*min-width: 300px;*/
     background-image: url("../img/huy-ahead.jpg");
+    -webkit-flex-grow: 1.3;
+    flex-grow: 1.3;
 }
 
 .container-abcxyz .page-section .root .huy-2 {
-    width: 220px;
-    height: 220px;
-    background-color: lightyellow;
+    /*width: 220px;
+    height: 220px;*/
+    /*min-width: 250px;*/
     background-image: url("../img/huy-2.jpg");
 }
 
 .container-abcxyz .page-section .root .huy-3 {
-    width: 390px;
-    height: 220px;
-    background-color: lightblue;
+    /*width: 390px;
+    height: 220px;*/
+    /*min-width: 300px;*/
     background-image: url("../img/huy-3.jpg");
+    -webkit-flex-grow: 1.5;
+    flex-grow: 1.5;
 }
 
 .container-abcxyz .page-section .root .huy-4 {
-    width: 292px;
-    height: 509px;
-    background-color: grey;
+    /*min-width: 300px;*/
     background-image: url("../img/huy-4.jpg");
 }
 
 .container-abcxyz .page-section .root .huy-5 {
-    width: 273px;
-    height: 273px;
-    background-color: darkblue;
+    /*width: 273px;
+    height: 273px;*/
+    /*min-width: 250px;*/
     background-image: url("../img/huy-5.jpg");
 }
 
 .container-abcxyz .page-section .root .huy-6 {
-    width: 407px;
-    height: 273px;
-    background-color: darkblue;
+    /*width: 407px;
+    height: 273px;*/
+    /*min-width: 350px;*/
     background-image: url("../img/huy-6.jpg");
+    -webkit-flex-grow: 1.6;
+    flex-grow: 1.6;
 }
 
 .container-abcxyz .page-section .root .huy-7 {
-    width: 273px;
-    height: 273px;
-    background-color: darkblue;
+    /*width: 273px;
+    height: 273px;*/
+    /*min-width: 250px;*/
     background-image: url("../img/huy-7.jpg");
 }
 
@@ -255,8 +293,8 @@
 .container-abcxyz .page-section .leave .wrapper {
     display: -webkit-flex;
     display: flex;
-    -webkit-flex-flow: row;
-    flex-flow: row;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
     -webkit-justify-content: space-between;
     justify-content: space-between;
     -webkit-align-items: center;
