@@ -146,6 +146,7 @@
         height: 100vh;
     }
     .container .page-section.page-section-ahead .root .wrapper {
+		border: none;
         height: 100%;
         margin: auto;
         background-size: 180%;
