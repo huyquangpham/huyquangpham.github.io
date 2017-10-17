@@ -139,9 +139,11 @@
     .container h3 {
         display: block;
     }
+	.container .page-section.page-section-ahead {
+		width: 100%;
+	}
     .container .page-section.page-section-ahead .root {
         height: 100vh;
-        padding: 30px 0;
     }
     .container .page-section.page-section-ahead .root .wrapper {
         height: 100%;
@@ -149,7 +151,7 @@
         background-size: 180%;
     }
     .container .page-section.page-section-ahead .leave {
-
+		padding: 0 20px;
     }
 
     .container .page-section.page-section-ahead .leave .wrapper {
@@ -169,7 +171,6 @@
 @media (max-width: 640px) {
     .container .page-section .root {
         height: 100vh;
-        padding: 10px;
     }
     .container .page-section.page-section-ahead .root .wrapper {
         background-size: 270%;
