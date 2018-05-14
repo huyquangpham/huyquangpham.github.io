@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  display: -webkit-flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+
+}
+
+.container > * {
+
+}
+
+.header {
+
+}
+
+.main {
+
+}
+
+.l-side {
+  width: 300px;
+  min-height: 100vh;
+}
+
+.pool {
+  -webkit-display: flex;
+  display: flex;
+
+}
+
+.pool .item {
+
+}
+
+footer {
+  background-color: blue;
+  min-height: 200px;
+}

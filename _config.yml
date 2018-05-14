@@ -1,0 +1,22 @@
+# Site settings
+title: H U Y  Q U A N G  P H A M
+email: huypq104@gmail.com
+phone: +841213866888
+description: > # this means to ignore newlines until "url:"
+  Họa sĩ
+url: "http://huyquangpham.com" # the base hostname & protocol for your site
+author: Huy Quang Pham
+github_username: huyquangpham
+exclude: [vender]
+
+# Plugins
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+sass:
+  style: compressed
+
+# Markdown Processors
+kramdown:
+  input: GFM
