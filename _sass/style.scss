@@ -16,6 +16,7 @@
   -webkit-flex-shrink: 0;
   flex-shrink: 0;
   .me-box {
+    margin-bottom: 80px;
     -webkit-display: flex;
     display: flex;
     -webkit-flex-flow: column nowrap;
@@ -28,15 +29,13 @@
       background-image: url('/media/self/logo.jpg');
       background-size: auto 100%;
       background-repeat: no-repeat;
-      background-position: center;
       height: 180px;
     }
     h4 {
-      padding-left: 90px;
+
     }
   }
   .collections {
-    padding-left: 90px;
     display: -webkit-flex;
     display: flex;
     -webkit-flex-flow: column nowrap;
@@ -44,11 +43,12 @@
     -webkit-align-items: flex-start;
     align-items: flex-start;
     .legend {
-      margin-bottom: 10px;
+      margin: 10px 0;
       font-weight: bold;
     }
     .toggle-collections {
-      margin: 80px 0 20px 0;
+      margin: 0 0 20px 0;
+      display: none;
     }
     #p-toggle-collections {
       display: none;
@@ -64,7 +64,7 @@
           align-items: flex-start;
           a {
             display: block;
-            margin: 5px 0;
+            margin: 3px 0;
           }
         }
       }
@@ -81,8 +81,9 @@
   flex-grow: 1;
   margin-top: -5px;
   > .item {
+    -webkit-box-shadow: 4px 4px rgba(0,0,0,0.2);
     box-shadow: 4px 4px rgba(0,0,0,0.2);
-    margin: 5px;
+    margin: 10px;
     padding: 15px;
     text-align: center;
     -webkit-display: flex;
@@ -95,10 +96,14 @@
     justify-content: space-between;
     -webkit-align-items: stretch;
     align-items: stretch;
-    min-width: 300px;
-    height: 400px;
+    min-width: 270px;
+    max-width: 400px;
+    height: 360px;
     background-color: white;
     border: 4px double black;
+    &:last-child {
+      max-width: none;
+    }
     .decoration {
       display: block;
       margin-bottom: 10px;

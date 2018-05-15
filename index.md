@@ -52,9 +52,78 @@ layout: default
     </div>
   </div>
 </div>
-<div class="item"></div>
-<div class="item"></div>
-<div class="item"></div>
+<div class="item item-no-border">
+  <div class="decoration" style="background-image: url('media/artwork/8-3-5.jpg')"></div>
+  <div class="literature">
+    <h3>PRIDE & PREJUDICE</h3>
+    <div class="">
+      <h5>May 01, 2018</h5>
+      <div class="hash-tags">
+        <span>#self#green#potrait</span>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="item item-no-border">
+  <div class="decoration" style="background-image: url('media/artwork/8-3-4.jpg')"></div>
+  <div class="literature">
+    <h3>PRIDE & PREJUDICE</h3>
+    <div class="">
+      <h5>May 01, 2018</h5>
+      <div class="hash-tags">
+        <span>#self#green#potrait</span>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="item item-no-border">
+  <div class="decoration" style="background-image: url('media/artwork/8-3-3-HUY.jpg')"></div>
+  <div class="literature">
+    <h3>PRIDE & PREJUDICE</h3>
+    <div class="">
+      <h5>May 01, 2018</h5>
+      <div class="hash-tags">
+        <span>#self#green#potrait</span>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="item">
+  <div class="decoration" style="background-image: url('media/artwork/8-3-1.jpg')"></div>
+  <div class="literature">
+    <h3>PRIDE & PREJUDICE</h3>
+    <div class="">
+      <h5>May 01, 2018</h5>
+      <div class="hash-tags">
+        <span>#self#green#potrait</span>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="item item-no-border">
+  <div class="decoration" style="background-image: url('media/artwork/8-3-2.jpg')"></div>
+  <div class="literature">
+    <h3>PRIDE & PREJUDICE</h3>
+    <div class="">
+      <h5>May 01, 2018</h5>
+      <div class="hash-tags">
+        <span>#self#green#potrait</span>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="item item-no-border">
+  <div class="decoration decoration-h" style="background-image: url('media/artwork/T2.jpg')"></div>
+  <div class="literature">
+    <h3>PRIDE & PREJUDICE</h3>
+    <div class="">
+      <h5>May 01, 2018</h5>
+      <div class="hash-tags">
+        <span>#self#green#potrait</span>
+      </div>
+    </div>
+  </div>
+</div>
 <div class="item"></div>
 <div class="item"></div>
 <div class="item"></div>
