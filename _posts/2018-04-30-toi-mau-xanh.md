@@ -11,7 +11,7 @@ tags: green self potrait
 ---
 <article class="content">
   <img id="c" class="pic {{ if page.frame }} {{ "pic-frame" }} {{ endif }}" src="{{ page.imgUrl | absolute_url }}" alt="{{ page.imgAlt }}" />
-  <h2 class="title">{{ page.title }}</h2>
+  <h3 class="title">{{ page.title }}</h3>
   <p class="des">{{ page.description }}</p>
   <ul class="tags">
     {% for tag in page.tags %}

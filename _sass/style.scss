@@ -163,6 +163,7 @@
     article.content {
       padding: 0 10px;
       margin-bottom: 40px;
+      text-align: center;
       > img {
         width: 100%;
         max-width: 500px;
@@ -171,13 +172,16 @@
         }
       }
       .title {
-        margin: 20px 0 5px 0;
-        font-weight: 100;
+        margin: 20px 0 0px 0;
+        font-weight: bold;
+        text-transform: uppercase;
       }
       .tags {
         list-style: none;
         -webkit-display: flex;
         display: flex;
+        -webkit-justify-content: center;
+        justify-content: center;
         li {
           margin-right: 5px;
           &:before {
