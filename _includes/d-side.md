@@ -5,7 +5,7 @@
   </section>
   <section class="collections">
     <label class="btn btn-tran toggle-collections" for="p-toggle-collections">...</label>
-    <input checked type="checkbox" id="p-toggle-collections" name="p-toggle-collections" />
+    <input type="checkbox" id="p-toggle-collections" name="p-toggle-collections" />
     <div class="container container-collection">
       <h5 class="legend">Charactering</h5>
       <a href="#" class="">Tôi màu xanh</a>
