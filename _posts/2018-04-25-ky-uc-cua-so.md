@@ -14,7 +14,9 @@ tags: window the-memory
 background: darkred
 ---
 <article class="content">
-  <img id="c" class="pic {{ if page.frame }} {{ "pic-frame" }} {{ endif }}" src="{{ page.imgUrl | absolute_url }}" alt="{{ page.imgAlt }}" style="background-color: {{ page.background }}" />
+  <div class="wrapper wrapper-img">
+    <img id="c" class="pic {{ if page.frame }} {{ "pic-frame" }} {{ endif }}" src="{{ page.imgUrl | absolute_url }}" alt="{{ page.imgAlt }}" style="background-color: {{ page.background }}" />
+  </div>
   <h3 class="title">{{ page.title }}</h3>
   <p class="des">{{ page.description }}</p>
   <ul class="tags">

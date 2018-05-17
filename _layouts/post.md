@@ -4,11 +4,12 @@
   {% include head.md %}
 
   <body class="post-page">
-  <header class="header header-main"></header>
     <div class="wrapper">
       <section class="container container-post">
-        {% include pool.md %}
-        <input class="btn btn-tran" type="button" value="BACK" onclick="window.history.back()" /> 
+        {{ content }}
+        <div class="wrapper wrapper-btn">
+          <input class="btn btn-tran" type="button" value="BACK" onclick="window.history.back()" />
+        </div>
       </section>
       <footer></footer>
     </div>
