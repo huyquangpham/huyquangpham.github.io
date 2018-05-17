@@ -144,7 +144,12 @@
   }
 }
 .post-page {
-  min-height: 100vh;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
   -webkit-display: flex;
   display: flex;
   -webkit-flex-flow: column nowrap;
