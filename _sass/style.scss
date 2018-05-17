@@ -120,6 +120,20 @@
     .literature {
       .hash-tags {
         font-weight: lighter;
+        -webkit-display: flex;
+        display: flex;
+        -webkit-justify-content: center;
+        justify-content: center;
+        list-style: none;
+        li {
+          margin-right: 3px;
+          &:before {
+            content: "#";
+          }
+          &:last-child {
+            margin: 0;
+          }
+        }
       }
     }
     &.item-no-border {
@@ -139,7 +153,7 @@
   justify-content: center;
 }
 .container-post {
-  padding: 20px 0 40px 0;
+  padding: 0 0 20px 0;
   -webkit-flex-flow: column nowrap;
   flex-flow: column nowrap;
   -webkit-align-items: center;
