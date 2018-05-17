@@ -8,7 +8,7 @@
       <section class="container container-post">
         {{ content }}
         <div class="wrapper wrapper-btn">
-          <input class="btn btn-tran" type="button" value="BACK" onclick="window.history.back()" />
+          <a href="#" class="btn btn-tran" onclick="window.history.back()">BACK</a>
         </div>
       </section>
       <footer></footer>
