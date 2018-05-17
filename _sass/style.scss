@@ -118,6 +118,9 @@
       }
     }
     .literature {
+      .title {
+        text-transform: uppercase;
+      }
       .hash-tags {
         font-weight: lighter;
         -webkit-display: flex;

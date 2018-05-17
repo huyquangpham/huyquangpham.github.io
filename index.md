@@ -8,7 +8,7 @@ layout: default
   <div class="item item-{{ post.border }}">
     <a href="{{ post.url | absolute_url }}" class="decoration" style="background-image: url('{{ post.imgThumbnailUrl }}')"></a>
     <div class="literature">
-      <h3>{{ post.title }}</h3>
+      <h3 class="title">{{ post.title }}</h3>
       <div class="des">
         <h5>{{ post.date | date: '%B %d, %Y' }}</h5>
         <ul class="hash-tags">
