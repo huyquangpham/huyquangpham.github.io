@@ -17,9 +17,12 @@
   <script>
   ;(function(){
     window.backBtn = function() {
+      console.log(history.length);
       if (history.length && history.length > 0) {
+        console.log('back');
         window.history.back();
       } else {
+        console.log('redirect')
         window.location.href = '{{ site.url }}'
       }
     }
