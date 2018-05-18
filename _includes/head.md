@@ -3,13 +3,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title}}{% endif %}</title>
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
   <meta name="keywords" content="Weblog, Design, Art, Huy, Quang, Pham" />
 
-  <meta property="og:url" content="http://huyquangpham.com" />
+  <meta property="og:url" content="{% if page.url %}{{ page.url | absolute_url }}{% else %}{{ site.url }}{% endif %}" />
   <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="H U Y  Q U A N G  P H A M" />
+  <meta property="og:site_name" content="{{ site.title }}" />
   <meta property="og:title" content="{% if page.og-title %}{{ page.og-title }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
   <meta property="og:description" content="{% if page.og-description %}{{ page.og-description | strip_html | strip_newlines | truncate: 160 }}{% elsif page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
   <meta property="og:image" content="{% if page.imgThumbnailUrl %}{{ page.imgThumbnailUrl | absolute_url }}{% else %}{{ site.imgOg | absolute_url }}{% endif %}" />
