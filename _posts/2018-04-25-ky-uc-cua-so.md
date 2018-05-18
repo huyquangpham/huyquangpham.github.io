@@ -4,6 +4,7 @@ title:  "Ký ức Cửa sổ"
 og-title:  "Ký ức Cửa sổ - Huy Quang Pham - Character Design, Hobbyist Artist"
 date:   2018-04-25 00:28:32 +0700
 description: "Bất chợt đôi khi gặp lại ký ức"
+og-description: "Bất chợt đôi khi gặp lại ký ức"
 categories: charactering
 imgUrl: "/media/artwork/T1.jpg"
 imgThumbnailUrl: "/media/artwork/thum/T1.jpg"
