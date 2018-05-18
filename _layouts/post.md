@@ -18,7 +18,7 @@
   ;(function(){
     window.backBtn = function() {
       console.log(history.length);
-      if (history.length && history.length > 0) {
+      if (history.length && history.length > 1) {
         console.log('back');
         window.history.back();
       } else {
