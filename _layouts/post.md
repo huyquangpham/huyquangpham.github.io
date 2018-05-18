@@ -8,7 +8,7 @@
       <section class="container container-post">
         {{ content }}
         <div class="wrapper wrapper-btn">
-          <a href="#" class="btn btn-tran" onclick="window.history.back()">BACK</a>
+          <a href="http://huyquangpham.com" class="btn btn-tran">HOME</a>
         </div>
       </section>
       <footer></footer>
