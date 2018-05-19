@@ -1,19 +1,19 @@
 ---
 layout: post
-title:  "Bird Me"
-og-title:  "Bird Me - Huy Quang Pham - Character Design, Hobbyist Artist"
-date:   2018-02-25 00:28:32 +0700
-description: "See what!? Huh..."
-og-description: "See what!? Huh..."
+title:  "Tay của tao"
+og-title:  "Tay của tao - Huy Quang Pham - Character Design, Hobbyist Artist"
+date:   2018-02-20 00:28:32 +0700
+description: "Just my hand"
+og-description: "Just my hand"
 categories: charactering
-imgUrl: "/media/artwork/bird-me.jpg"
-imgThumbnailUrl: "/media/artwork/thum/bird-me.jpg"
+imgUrl: "/media/artwork/my-hand.jpg"
+imgThumbnailUrl: "/media/artwork/thum/my-hand.jpg"
 imgAlt: "See what!? Huh..."
 frame: 1
-border: border
+border: no-border
 orientation: potrait
-tags: bird self potrait
-background: darkyellow
+tags: hand self
+background: yellow
 ---
 <article class="content">
   <div class="wrapper wrapper-img">

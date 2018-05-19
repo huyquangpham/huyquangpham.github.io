@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "Ký ức Cửa sổ"
-og-title:  "Ký ức Cửa sổ - Huy Quang Pham - Character Design, Hobbyist Artist"
-date:   2018-04-25 00:28:32 +0700
-description: "Bất chợt đôi khi gặp lại ký ức"
-og-description: "Bất chợt đôi khi gặp lại ký ức"
+title:  "Việt Nam có nón lá"
+og-title:  "Việt Nam có nón lá - Huy Quang Pham - Character Design, Hobbyist Artist"
+date:   2018-02-19 00:28:32 +0700
+description: "Phụ nữ Việt Nam nhỏ nhắn, dễ thương"
+og-description: "Phụ nữ Việt Nam nhỏ nhắn, dễ thương"
 categories: charactering
-imgUrl: "/media/artwork/T1.jpg"
-imgThumbnailUrl: "/media/artwork/thum/T1.jpg"
-imgAlt: "Bất chợt đôi khi gặp lại ký ức"
+imgUrl: "/media/artwork/non-la.jpg"
+imgThumbnailUrl: "/media/artwork/thum/non-la.jpg"
+imgAlt: "Phụ nữ Việt Nam nhỏ nhắn, dễ thương"
 frame: 1
 border: border
 orientation: potrait

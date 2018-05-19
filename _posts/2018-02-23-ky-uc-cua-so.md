@@ -1,19 +1,19 @@
 ---
 layout: post
-title:  "Bird Me"
-og-title:  "Bird Me - Huy Quang Pham - Character Design, Hobbyist Artist"
-date:   2018-02-25 00:28:32 +0700
-description: "See what!? Huh..."
-og-description: "See what!? Huh..."
+title:  "Ký ức Cửa sổ"
+og-title:  "Ký ức Cửa sổ - Huy Quang Pham - Character Design, Hobbyist Artist"
+date:   2018-02-23 00:28:32 +0700
+description: "Bất chợt đôi khi gặp lại ký ức"
+og-description: "Bất chợt đôi khi gặp lại ký ức"
 categories: charactering
-imgUrl: "/media/artwork/bird-me.jpg"
-imgThumbnailUrl: "/media/artwork/thum/bird-me.jpg"
-imgAlt: "See what!? Huh..."
+imgUrl: "/media/artwork/T1.jpg"
+imgThumbnailUrl: "/media/artwork/thum/T1.jpg"
+imgAlt: "Bất chợt đôi khi gặp lại ký ức"
 frame: 1
 border: border
 orientation: potrait
-tags: bird self potrait
-background: darkyellow
+tags: window the-memory
+background: darkred
 ---
 <article class="content">
   <div class="wrapper wrapper-img">
