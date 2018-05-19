@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "Tay của tao"
+title:  "[8 3] Table girl"
 og-title:  "Tay của tao - Huy Quang Pham - Character Design, Hobbyist Artist"
-date:   2018-02-20 00:28:32 +0700
-description: "Just my hand"
-og-description: "Just my hand"
+date:   2018-03-08 00:28:32 +0700
+description: "Hey!..."
+og-description: "Hey!..."
 categories: cards
-imgUrl: "/media/artwork/my-hand.jpg"
-imgThumbnailUrl: "/media/artwork/thum/my-hand.jpg"
-imgAlt: "Just my hand"
+imgUrl: "/media/artwork/table-girl.jpg"
+imgThumbnailUrl: "/media/artwork/thum/table-girl.jpg"
+imgAlt: "Hey!..."
 frame: 1
 border: no-border
 orientation: potrait
