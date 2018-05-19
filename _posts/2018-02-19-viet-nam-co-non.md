@@ -5,7 +5,7 @@ og-title:  "Việt Nam có nón lá - Huy Quang Pham - Character Design, Hobbyis
 date:   2018-02-19 00:28:32 +0700
 description: "Phụ nữ Việt Nam nhỏ nhắn, dễ thương"
 og-description: "Phụ nữ Việt Nam nhỏ nhắn, dễ thương"
-categories: charactering
+categories: cards
 imgUrl: "/media/artwork/non-la.jpg"
 imgThumbnailUrl: "/media/artwork/thum/non-la.jpg"
 imgAlt: "Phụ nữ Việt Nam nhỏ nhắn, dễ thương"
