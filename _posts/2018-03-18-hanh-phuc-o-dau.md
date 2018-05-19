@@ -1,19 +1,19 @@
 ---
 layout: post
-title:  "Ký ức Cửa sổ"
-og-title:  "Ký ức Cửa sổ - Huy Quang Pham - Character Design, Hobbyist Artist"
-date:   2018-02-23 00:28:32 +0700
-description: "Bất chợt đôi khi gặp lại ký ức"
-og-description: "Bất chợt đôi khi gặp lại ký ức"
+title:  "Tìm hạnh phúc hoài"
+og-title: "Tìm hạnh phúc hoài - Huy Quang Pham - Character Design, Hobbyist Artist"
+date:   2018-03-18 13:28:32 +0700
+description: "Cứ tìm tới khi thấy"
+og-description: "Cứ tìm tới khi thấy"
 categories: charactering
-imgUrl: "/media/artwork/T1.jpg"
-imgThumbnailUrl: "/media/artwork/thum/T1.jpg"
-imgAlt: "Bất chợt đôi khi gặp lại ký ức"
+imgUrl: "/media/artwork/where-is-h.jpg"
+imgThumbnailUrl: "/media/artwork/thum/where-is-h.jpg"
+imgAlt: "Cứ tìm tới khi thấy"
 frame: 1
-border: border
+border: no-border
 orientation: potrait
-tags: window the-memory
-background: darkred
+tags: hair girl potrait
+background: yellow
 ---
 <article class="content">
   <div class="wrapper wrapper-img">

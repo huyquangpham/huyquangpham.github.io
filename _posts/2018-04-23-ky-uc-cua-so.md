@@ -1,19 +1,19 @@
 ---
 layout: post
-title:  "Quý cô"
-og-title:  "Quý cô - Huy Quang Pham - Character Design, Hobbyist Artist"
-date:   2018-03-06 00:28:32 +0700
-description: "Pride & Prejudice"
-og-description: "Pride & Prejudice"
-categories: cards
-imgUrl: "/media/artwork/lady.jpg"
-imgThumbnailUrl: "/media/artwork/thum/lady.jpg"
-imgAlt: "Pride & Prejudice"
+title:  "Ký ức Cửa sổ"
+og-title:  "Ký ức Cửa sổ - Huy Quang Pham - Character Design, Hobbyist Artist"
+date:   2018-04-23 00:28:32 +0700
+description: "Bất chợt đôi khi gặp lại ký ức"
+og-description: "Bất chợt đôi khi gặp lại ký ức"
+categories: charactering
+imgUrl: "/media/artwork/T1.jpg"
+imgThumbnailUrl: "/media/artwork/thum/T1.jpg"
+imgAlt: "Bất chợt đôi khi gặp lại ký ức"
 frame: 1
-border: no-border
+border: border
 orientation: potrait
-tags: hand self
-background: yellow
+tags: window the-memory
+background: darkred
 ---
 <article class="content">
   <div class="wrapper wrapper-img">

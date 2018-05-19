@@ -1,18 +1,18 @@
 ---
 layout: post
-title:  "Quý cô"
-og-title:  "Quý cô - Huy Quang Pham - Character Design, Hobbyist Artist"
-date:   2018-03-06 00:28:32 +0700
-description: "Pride & Prejudice"
-og-description: "Pride & Prejudice"
-categories: cards
-imgUrl: "/media/artwork/lady.jpg"
-imgThumbnailUrl: "/media/artwork/thum/lady.jpg"
-imgAlt: "Pride & Prejudice"
+title:  "Không gặp lại"
+og-title: "Không gặp lại - Huy Quang Pham - Character Design, Hobbyist Artist"
+date:   2018-05-19 13:28:32 +0700
+description: "I met you, and I said that in my mind"
+og-description: "I met you, and I said that in my mind"
+categories: charactering
+imgUrl: "/media/artwork/slow-down.jpg"
+imgThumbnailUrl: "/media/artwork/thum/slow-down.jpg"
+imgAlt: "I met you, and I said that in my mind"
 frame: 1
-border: no-border
+border: border
 orientation: potrait
-tags: hand self
+tags: hair girl potrait
 background: yellow
 ---
 <article class="content">
