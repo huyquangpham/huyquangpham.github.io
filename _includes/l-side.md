@@ -8,16 +8,32 @@
     <input checked type="checkbox" id="p-toggle-collections" name="p-toggle-collections" />
     <div class="container container-collection">
       <h5 class="legend">Charactering</h5>
-      <a href="#" class="">Tôi màu xanh</a>
-      <a href="#" class="">Cửa sổ ký ức</a>
-      <a href="#" class="">Tôi có một con chim</a>
+      {% for post in site.posts | sort_by: "date" %}
+        {% if post.categories contains "charactering" %}
+          <a href="{{ post.url | absolute_url }}" class="">{{ post.title }}</a>
+        {% endif %}
+      {% endfor %}
+
       <h5 class="legend">Animals</h5>
-      <a href="#" class="">[Pride&Prejudice] Con công</a>
+      {% for post in site.posts | sort_by: "date" %}
+        {% if post.categories contains "animals" %}
+          <a href="{{ post.url | absolute_url }}" class="">{{ post.title }}</a>
+        {% endif %}
+      {% endfor %}
+
       <h5 class="legend">Cards</h5>
-      <a href="#" class="">[8/3] The Chicken Girl</a>
-      <a href="#" class="">[8/3] Mái tóc</a>
+      {% for post in site.posts | sort_by: "date" %}
+        {% if post.categories contains "cards" %}
+          <a href="{{ post.url | absolute_url }}" class="">{{ post.title }}</a>
+        {% endif %}
+      {% endfor %}
+
       <h5 class="legend">Childrens</h5>
-      <a href="#" class="">[Story] Tôi ngày hôm qua</a>
+      {% for post in site.posts | sort_by: "date" %}
+        {% if post.categories contains "childrens" %}
+          <a href="{{ post.url | absolute_url }}" class="">{{ post.title }}</a>
+        {% endif %}
+      {% endfor %}
     </div>
   </section>
 </aside>
