@@ -9,7 +9,8 @@ categories: charactering
 imgUrl: "/media/artwork/me-in-a-mountain-trip.jpg"
 imgThumbnailUrl: "/media/artwork/thum/me-in-a-mountain-trip.jpg"
 imgAlt: "Me in a mountain trip"
-border: no-border
+frame: 1
+border: border
 orientation: potrait
 tags: trip me self
 background: yellow
