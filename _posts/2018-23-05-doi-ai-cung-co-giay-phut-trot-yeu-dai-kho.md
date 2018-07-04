@@ -5,7 +5,7 @@ og-title:  "Đời ai cũng có... - Huy Quang Pham - Character Design, Hobbyist
 date:   2018-05-23 00:28:32 +0700
 description: '"Phút chốc người lỡ nói vậy. Ta quen chẳng trách người đâu" - Câu chuyện của một người nào đó..'
 og-description: '"Phút chốc người lỡ nói vậy. Ta quen chẳng trách người đâu" - Câu chuyện của một người nào đó..'
-categories: cards
+categories: charactering
 imgUrl: "/media/artwork/doi-ai-cung-co-giay-phut-trot-yeu-dai-kho.jpg"
 imgThumbnailUrl: "/media/artwork/thum/doi-ai-cung-co-giay-phut-trot-yeu-dai-kho.jpg"
 imgAlt: "Phút chốc người lỡ nói vậy. Ta quen chẳng trách người đâu"
