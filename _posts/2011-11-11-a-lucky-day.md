@@ -1,18 +1,18 @@
 ---
 layout: post
-title:  "My everyday"
-og-title:  "My everyday - Huy Quang Pham - Character Design, Hobbyist Artist"
-date:   2017-11-04 18:28:32 +0700
-description: 'My everyday'
-og-description: 'My everyday'
+title:  "A lucky day"
+og-title:  "A lucky day - Huy Quang Pham - Character Design, Hobbyist Artist"
+date:   2011-11-11 17:28:32 +0700
+description: 'A lucky day'
+og-description: 'A lucky day'
 categories: charactering
-imgUrl: "/media/artwork/my-every-day.jpg"
-imgThumbnailUrl: "/media/artwork/thum/my-every-day.jpg"
-imgAlt: "My everyday"
+imgUrl: "/media/artwork/a-lucky-day.jpg"
+imgThumbnailUrl: "/media/artwork/thum/a-lucky-day.jpg"
+imgAlt: "A lucky day"
 border: no-border
 orientation: landscape
-tags: everyday tired work
-background: darkred
+tags: luck day
+background: gold
 ---
 <article class="content">
   <div class="wrapper wrapper-img">
