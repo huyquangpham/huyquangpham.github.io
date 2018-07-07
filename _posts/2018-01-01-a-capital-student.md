@@ -2,12 +2,12 @@
 layout: post
 title:  "A capital student"
 og-title:  "A capital student - Huy Quang Pham - Character Design, Hobbyist Artist"
-date:   2018-01-04 17:28:32 +0700
+date:   2018-01-01 17:28:32 +0700
 description: 'A capital student'
 og-description: 'A capital student'
 categories: charactering
-imgUrl: "/media/artwork/a-captial-student.jpg"
-imgThumbnailUrl: "/media/artwork/thum/a-captial-student.jpg"
+imgUrl: "/media/artwork/a-capital-student.jpg"
+imgThumbnailUrl: "/media/artwork/thum/a-capital-student.jpg"
 imgAlt: "A capital student"
 frame: 1
 border: border
