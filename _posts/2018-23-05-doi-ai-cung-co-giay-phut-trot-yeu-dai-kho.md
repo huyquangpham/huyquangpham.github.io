@@ -9,7 +9,7 @@ categories: charactering
 imgUrl: "/media/artwork/doi-ai-cung-co-giay-phut-trot-yeu-dai-kho.jpg"
 imgThumbnailUrl: "/media/artwork/thum/doi-ai-cung-co-giay-phut-trot-yeu-dai-kho.jpg"
 imgAlt: "Phút chốc người lỡ nói vậy. Ta quen chẳng trách người đâu"
-border: border
+border: no-border
 orientation: potrait
 tags: sad but happy
 background: darkblue
