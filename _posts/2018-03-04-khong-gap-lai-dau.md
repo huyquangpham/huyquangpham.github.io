@@ -2,7 +2,7 @@
 layout: post
 title:  "Không gặp lại"
 og-title: "Không gặp lại - Huy Quang Pham - Character Design, Hobbyist Artist"
-date:   2018-04-03 13:28:32 +0700
+date:   2018-03-04 13:28:32 +0700
 description: "I met you, and I said that in my mind"
 og-description: "I met you, and I said that in my mind"
 categories: charactering
